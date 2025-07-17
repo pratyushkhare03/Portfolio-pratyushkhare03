@@ -255,6 +255,6 @@ button:hover, button:hover::before {
 .glow-point {
     position: absolute;
     box-shadow: 0rem 0rem 1.2rem 0.6rem  #e91e63;
-    pointer-events: none;
+    pointer-events:none;
   }
   
