@@ -233,7 +233,36 @@ body .container button {
   background-clip: padding-box, border-box, border-box;
   background-size: 200%;
 }
+.btn-text{
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+}
+ .btn-text1,
+.btn-text2 {
+    transition: transform 1s cubic-bezier(.23,1,.32,1);
+}
 
+.btn-text1 {
+    z-index: 2;
+    position: relative;
+}
+
+.btn-text2 {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: 0;
+    transform: translateY(101%);
+}
+
+.btn:hover .btn-text2 {
+    transform: translateY(0%);
+}
+
+.btn:hover .btn-text1 {
+    transform: translateY(-101%);
+}
 button:hover, button:hover::before {
   animation: animate 0.5s infinite linear;
 }
