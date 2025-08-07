@@ -738,6 +738,10 @@ img {
   .technologyStack-row img {
     margin-bottom: 30px;
   }
+
+  .contact-info{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Responsive for 1024px */
