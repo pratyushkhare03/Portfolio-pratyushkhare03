@@ -817,13 +817,13 @@ img {
     grid-template-columns: 1fr;
   }
 
-  /* about section testimonials */
+  /* about section Certifications */
 
-  .testimonials-row {
+  .Certifications-row {
     flex-direction: column;
   }
 
-  .testimonials-content {
+  .Certifications-content {
     margin-right: 0;
     margin-bottom: 20px;
   }
@@ -855,6 +855,10 @@ img {
   /* contact section */
 
   .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
     grid-template-columns: 1fr;
   }
 }
